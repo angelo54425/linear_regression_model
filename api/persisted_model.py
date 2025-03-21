@@ -11,7 +11,7 @@ from sklearn.impute import SimpleImputer
 # Define file paths
 model_path = "random_forest_model.pkl"
 preprocessor_path = "preprocessor.pkl"
-file_path = "laptop_pricing_dataset.csv"
+file_path = "api/laptop_pricing_dataset.csv"
 
 def train_and_save_model():
     # Load dataset
