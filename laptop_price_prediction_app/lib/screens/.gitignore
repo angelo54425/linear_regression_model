@@ -1,0 +1,53 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & Debugging
+logs/
+*.log
+*.out
+*.err
+
+# Environment files
+.env
+*.env
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Testing & Coverage reports
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# IDE & Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+build/
+dist/
+*.egg-info/
